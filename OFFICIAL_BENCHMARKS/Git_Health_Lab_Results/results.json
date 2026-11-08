@@ -1,0 +1,10 @@
+{
+  "benchmark": "Git_Health_Lab_Results",
+  "project": "K_MOABB",
+  "run_timestamp": "2026-09-30T18:11:11.493145+00:00",
+  "isolation": "STATIC_ANALYSIS",
+  "results": {
+    "upstream": "NeuroTechX/moabb",
+    "clone_status": "OK"
+  }
+}

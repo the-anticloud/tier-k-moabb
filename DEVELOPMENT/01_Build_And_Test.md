@@ -1,0 +1,8 @@
+# Build & Test — K_MOABB
+
+```bash
+git clone https://github.com/NeuroTechX/moabb
+cd k-moabb
+pip install -e .[dev]
+pytest tests/
+```

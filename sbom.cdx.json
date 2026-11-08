@@ -1,0 +1,221 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:18e21c87-7b29-5884-a202-f837598a1ffa",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:35:32Z",
+    "component": {
+      "type": "application",
+      "name": "K_MOABB",
+      "version": "9c6b1ccfa94c",
+      "bom-ref": "pkg:generic/anticloud/K_MOABB@9c6b1ccfa94c",
+      "purl": "pkg:generic/anticloud/K_MOABB@9c6b1ccfa94c",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "9c6b1ccfa94c227f15f3b518ee8c5c0475a6e12c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/NeuroTechX/moabb"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=2.0",
+      "purl": "pkg:pypi/numpy@2.0",
+      "bom-ref": "pypi/numpy@>=2.0"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.9.3",
+      "purl": "pkg:pypi/scipy@1.9.3",
+      "bom-ref": "pypi/scipy@>=1.9.3"
+    },
+    {
+      "type": "library",
+      "name": "mne",
+      "version": ">=1.13",
+      "purl": "pkg:pypi/mne@1.13",
+      "bom-ref": "pypi/mne@>=1.13"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": ">=1.5.2",
+      "purl": "pkg:pypi/pandas@1.5.2",
+      "bom-ref": "pypi/pandas@>=1.5.2"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": ">=3.10.0",
+      "purl": "pkg:pypi/h5py@3.10.0",
+      "bom-ref": "pypi/h5py@>=3.10.0"
+    },
+    {
+      "type": "library",
+      "name": "pymatreader",
+      "version": ">=1.2.2",
+      "purl": "pkg:pypi/pymatreader@1.2.2",
+      "bom-ref": "pypi/pymatreader@>=1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": ">=3.6.2",
+      "purl": "pkg:pypi/matplotlib@3.6.2",
+      "bom-ref": "pypi/matplotlib@>=3.6.2"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": ">=0.12.1",
+      "purl": "pkg:pypi/seaborn@0.12.1",
+      "bom-ref": "pypi/seaborn@>=0.12.1"
+    },
+    {
+      "type": "library",
+      "name": "pyriemann",
+      "version": ">=0.12",
+      "purl": "pkg:pypi/pyriemann@0.12",
+      "bom-ref": "pypi/pyriemann@>=0.12"
+    },
+    {
+      "type": "library",
+      "name": "PyYAML",
+      "version": ">=6.0",
+      "purl": "pkg:pypi/pyyaml@6.0",
+      "bom-ref": "pypi/PyYAML@>=6.0"
+    },
+    {
+      "type": "library",
+      "name": "nemar-py",
+      "version": ">=0.2.1",
+      "purl": "pkg:pypi/nemar-py@0.2.1",
+      "bom-ref": "pypi/nemar-py@>=0.2.1"
+    },
+    {
+      "type": "library",
+      "name": "pooch",
+      "version": ">=1.6.0",
+      "purl": "pkg:pypi/pooch@1.6.0",
+      "bom-ref": "pypi/pooch@>=1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.28.1",
+      "purl": "pkg:pypi/requests@2.28.1",
+      "bom-ref": "pypi/requests@>=2.28.1"
+    },
+    {
+      "type": "library",
+      "name": "remotezip",
+      "version": ">=0.12.3",
+      "purl": "pkg:pypi/remotezip@0.12.3",
+      "bom-ref": "pypi/remotezip@>=0.12.3"
+    },
+    {
+      "type": "library",
+      "name": "urllib3",
+      "version": ">=1.26.15",
+      "purl": "pkg:pypi/urllib3@1.26.15",
+      "bom-ref": "pypi/urllib3@>=1.26.15"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": ">=4.64.1",
+      "purl": "pkg:pypi/tqdm@4.64.1",
+      "bom-ref": "pypi/tqdm@>=4.64.1"
+    },
+    {
+      "type": "library",
+      "name": "coverage",
+      "version": ">=7.0.1",
+      "purl": "pkg:pypi/coverage@7.0.1",
+      "bom-ref": "pypi/coverage@>=7.0.1"
+    },
+    {
+      "type": "library",
+      "name": "memory-profiler",
+      "version": ">=0.61.0",
+      "purl": "pkg:pypi/memory-profiler@0.61.0",
+      "bom-ref": "pypi/memory-profiler@>=0.61.0"
+    },
+    {
+      "type": "library",
+      "name": "edflib-python",
+      "version": ">=1.0.6",
+      "purl": "pkg:pypi/edflib-python@1.0.6",
+      "bom-ref": "pypi/edflib-python@>=1.0.6"
+    },
+    {
+      "type": "library",
+      "name": "edfio",
+      "version": ">=0.4.2",
+      "purl": "pkg:pypi/edfio@0.4.2",
+      "bom-ref": "pypi/edfio@>=0.4.2"
+    },
+    {
+      "type": "library",
+      "name": "filelock",
+      "version": ">=3.18.0",
+      "purl": "pkg:pypi/filelock@3.18.0",
+      "bom-ref": "pypi/filelock@>=3.18.0"
+    },
+    {
+      "type": "library",
+      "name": "mne-bids",
+      "version": ">=0.19",
+      "purl": "pkg:pypi/mne-bids@0.19",
+      "bom-ref": "pypi/mne-bids@>=0.19"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": ">=1.6",
+      "purl": "pkg:pypi/scikit-learn@1.6",
+      "bom-ref": "pypi/scikit-learn@>=1.6"
+    },
+    {
+      "type": "library",
+      "name": "pybv",
+      "version": ">=0.7.3",
+      "purl": "pkg:pypi/pybv@0.7.3",
+      "bom-ref": "pypi/pybv@>=0.7.3"
+    },
+    {
+      "type": "library",
+      "name": "pycountry",
+      "version": ">=24.6.1",
+      "purl": "pkg:pypi/pycountry@24.6.1",
+      "bom-ref": "pypi/pycountry@>=24.6.1"
+    },
+    {
+      "type": "library",
+      "name": "docstring-inheritance",
+      "version": ">=2.0.0",
+      "purl": "pkg:pypi/docstring-inheritance@2.0.0",
+      "bom-ref": "pypi/docstring-inheritance@>=2.0.0"
+    }
+  ]
+}
